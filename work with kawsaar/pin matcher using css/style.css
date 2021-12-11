@@ -82,9 +82,41 @@ body{
 .generateBtn{
     margin-top: 140px;
     width: 180px;
-    padding: 50px;
+    height: 180px;
+    font-size: larger;
     border-radius: 50%;
     border: 8px solid #39458C;
     background-color: #495BC3;
     color: #ffffff;
+}
+.center{
+    text-align: center;
+}
+.num_pad{
+    margin-top: 50px;
+}
+
+.number button{
+    width: 20%;
+    padding: 20px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(203, 203, 204);
+}
+.submitBtn{
+    margin-top: 27px;
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: larger;
+    border: 1px solid #39458C;
+    background-color: #495BC3;
+    color: #ffffff;
+
 }
