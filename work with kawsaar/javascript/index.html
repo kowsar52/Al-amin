@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="number" id="numOne">
+   <input type="number" id="numTwo">
+   <button id="sum" onclick="sum()" >+</button>
+   <button id="sub" onclick="sub()">-</button>
+   <button id="mul" onclick="mul()">*</button>
+   <button id="div" onclick="div()">/</button>
+   <input type="text" id="res" placeholder="Result">
+   <script>
+    //    let one = document.getElementById("numOne").value
+    //    let two = document.getElementById("numTwo").value
+       function sum(){
+        let one = document.getElementById("numOne").value
+        let two = document.getElementById("numTwo").value
+        const result =parseInt(one) + parseInt(two);
+        document.getElementById("res").value = result;
+
+        console.log(result);        
+       }
+       function sub(){
+        let one = document.getElementById("numOne").value
+        let two = document.getElementById("numTwo").value
+        const result =parseInt(one) - parseInt(two);
+        console.log(result);        
+       }
+       function mul(){
+        let one = document.getElementById("numOne").value
+        let two = document.getElementById("numTwo").value
+        const result =parseInt(one) * parseInt(two);
+        console.log(result);        
+       }
+       function div(){
+        let one = document.getElementById("numOne").value
+        let two = document.getElementById("numTwo").value
+        const result =parseInt(one) / parseInt(two);
+        console.log(result);        
+       }
+       
+       
+   </script>
+</body>
+</html>

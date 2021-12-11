@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: slategray;
+}
+.half_width{
+    background-color: rgb(62, 126, 105);
+    height: 500px;
+}
+.generate_btn{
+    margin: 140px;
+    padding: 45px;
+    width: 200px;
+    height: 195px;
+    border-radius: 50%;
+    border: 8px solid #ade417;
+    background-color: #0d0e14;
+    color: #fbf700;
+    font-weight: bold;
+    text-align:center ;
+    font-size: larger;
+
+}
+.num_pad{
+    display: flex;
+    justify-content: space-around;
+}
+.num_pad button{
+    width: 100%;
+    margin: 5px;
+}
