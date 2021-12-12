@@ -9,7 +9,6 @@ body{
 .container{
    width: 80%;
    margin:0 auto;
-
 }
 
 .row{
@@ -75,7 +74,7 @@ body{
     padding: 10px 0px;
     color: #ffffff;
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
     border: 2px solid #849333;
     height: 50px;
 }
@@ -88,6 +87,7 @@ body{
     border: 8px solid #39458C;
     background-color: #495BC3;
     color: #ffffff;
+    cursor: pointer;
 }
 .center{
     text-align: center;
@@ -106,6 +106,12 @@ body{
     font-weight: bolder;
     font-size: large;
     background-color: rgb(203, 203, 204);
+    cursor: pointer;
+}
+.number button:hover{
+    background-color: #495BC3;
+    color: white;
+    transition: .2s ease-in-out;
 }
 .submitBtn{
     margin-top: 27px;
@@ -118,5 +124,5 @@ body{
     border: 1px solid #39458C;
     background-color: #495BC3;
     color: #ffffff;
-
+    cursor: pointer;
 }
