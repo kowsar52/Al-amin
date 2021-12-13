@@ -37,8 +37,10 @@
                         <button onclick="numPad(this.innerText)">0</button>
                         <button onclick="clearDis()">C</button>
                     </div>
-                    <button class="submitBtn">Submit</button>
+                    <button id="submitBtn" onclick="pinSubmit()" class="submitBtn">Submit</button>
                 </div>
+                <small id="tryMsg">You have <span id="totalTry">3</span> try left</small>
+
 
             </div>
         </div>
