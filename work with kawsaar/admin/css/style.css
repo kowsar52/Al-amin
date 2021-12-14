@@ -106,7 +106,7 @@ button.toggle_bar {
 button.searchBtn {
     position: absolute;
     right: 14px;
-    bottom: 5px;
+    bottom: 8px;
     font-size: 16px;
     background: transparent;
     border: none;
@@ -175,6 +175,41 @@ span.msg_count {
     margin: 18px;
     color: red;
 }
+.popup_menu_area{
+    position: relative;
 }
 
+.popup_menus {
+    position: fixed;
+    right: 0px;
+    top: 60px;
+    padding: 10px;
+    background: var(--primary-color);
+    display: none;
+    
+}
+.popup_menus li{
+    list-style: none;
+}
+.popup_menus li a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    text-transform: capitalize;
+}
 /* top right icon style end */
+
+
+/* sidebar menu style start */
+.left_sidebar a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.sidebar_menu_title{
+    padding-left: 5px;
+}
+.sidebar_menu{
+    list-style: none;
+    margin-bottom: 10px;
+}
+/* sidebar menu style end */
