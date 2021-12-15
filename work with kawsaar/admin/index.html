@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- font awesome  -->
+    <!--icons link  -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
         integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +20,7 @@
         <!-- section top start -->
         <section class="main_topbar">
             <div class="top_left">
-                <button class="toggle_bar"><i class="fas fa-bars"></i></button>
+                <i class="fas fa-bars toggle_bar"></i>
                 <a class="logo" href="index.html">
                     <img src="images/logo.png" alt="">
                 </a>
@@ -28,7 +29,7 @@
                 <form action="">
                     <div class="input_group_icon">
                         <input type="text" class="form_control">
-                        <button class="searchBtn"><i class="fas fa-search"></i></button>
+                        <a href="" class="searchBtn"><i class="fas fa-search"></i></a>
                     </div>
                 </form>
                 <div class="top_right_icons">
@@ -56,27 +57,24 @@
                                     <a href="">
                                         <i class="fas fa-briefcase"></i>
                                         <span class="sidebar_menu_title">management</span>
-                                     </a>
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="">
                                         <i class="fas fa-briefcase"></i>
                                         <span class="sidebar_menu_title">management</span>
-                                     </a>
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="">
                                         <i class="fas fa-briefcase"></i>
                                         <span class="sidebar_menu_title">management</span>
-                                     </a>
+                                    </a>
+
                                 </li>
                             </ul>
                         </div>
                     </div>
-
-
-
-
 
                 </div>
             </div>
@@ -90,31 +88,91 @@
         <section class="main_section">
             <!-- sidebar start -->
             <div class="left_sidebar">
-                <ul class="left_sidebar_menus">
-                    <li class="sidebar_menu">
+                <ul class="nav_links">
+                    <li >
                         <a href="">
-                            <i class="fas fa-tachometer-alt"></i>
-                            <span class="sidebar_menu_title">Dashboard</span>
+                            <i class="bx bxs-dashboard"></i>
+                            <span class="link_name">Dashboard</span>
                         </a>
                     </li>
-                    <li class="sidebar_menu">
+                    <li >
                         <a href="">
-                            <i class="fas fa-user-circle"></i>
-                            <span class="sidebar_menu_title">Profile</span>
+                            <i class="bx bxs-user"></i>
+                            <span class="link_name">profile</span>
                         </a>
                     </li>
-                    <li class="sidebar_menu">
-                        <a href="">
-                            <i class="fas fa-briefcase"></i>
-                            <span class="sidebar_menu_title">management</span>
-                         </a>
+                    <li >
+                        <div class="dropdown_menu_link">
+                            <a href="">
+                                <i class="bx bxs-briefcase"></i>
+                                <span class="link_name">management</span>
+                                
+                            </a>
+                            <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li >
+                                <a href="">
+                                    <i class="fas fa-users"></i>
+                                    <span class="link_name">my team</span>
+                                </a>
+                            </li>
+                            <li >
+                                <a href="">
+                                    <i class="bx bxs-folder-open"></i>
+                                    <span class="link_name">my projects</span>
+                                </a>
+                            </li>
+                            <li >
+                                <a href="">
+                                    <i class="bx bxl-microsoft-teams"></i>
+                                    <span class="link_name">My clients</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="sidebar_menu">
+                    <li >
                         <a href="">
-                            <span class="sidebar_menu_title"></span>
+                            <i class="fas fa-history"></i>
+                            <span class="link_name">history</span>
                         </a>
                     </li>
-
+                    <li >
+                        <div class="dropdown_menu_link">
+                            <a href="">
+                                <i class="fas fa-chalkboard"></i>
+                                <span class="link_name">communiction</span>
+                                
+                            </a>
+                            <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li >
+                                <a href="">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span class="link_name">option one</span>
+                                </a>
+                            </li>
+                            <li >
+                                <a href="">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span class="link_name">option two</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li >
+                        <a href="">
+                            <i class="fas fa-cogs"></i>
+                            <span class="link_name">settings</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="">
+                            <i class="fas fa-chart-line"></i>
+                            <span class="link_name">monthly income</span>
+                        </a>
+                    </li>
                 </ul>
 
             </div>
@@ -122,7 +180,7 @@
 
 
             <!-- start main -->
-            <div class="body">
+            <div class="right_side_body">
                 main section
             </div>
             <!-- end main -->
