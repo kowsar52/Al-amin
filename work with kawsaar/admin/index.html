@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
         integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- jquery     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Admin Panel</title>
+
 </head>
 
 <body>
@@ -29,7 +34,7 @@
                 <form action="">
                     <div class="input_group_icon">
                         <input type="text" class="form_control">
-                        <a href="" class="searchBtn"><i class="fas fa-search"></i></a>
+                        <a href="javascript:;" class="searchBtn"><i class="fas fa-search"></i></a>
                     </div>
                 </form>
                 <div class="top_right_icons">
@@ -39,42 +44,45 @@
                         <span class="msg_count">3</span>
                     </span>
                     <div class="notify_icon">
-                        <a href=""><i class="far fa-bell"></i></a>
+                        <a href="javascript:;"><i class="far fa-bell"></i></a>
                     </div>
                     <div class="user">
-                        <img class="user_img" src="images/user/user.png" alt="">
-                        <small class="user_name">Mr.Nola</small>
-                    </div>
-                    <div class="more_btn">
-                        <a onclick="moreMenu()">
-                            <i class="fas fa-chevron-down"></i>
+                        <a href="javascript:;">
+                            <img class="user_img" src="images/user/user.png" alt="">
+                            <small class="user_name">Mr.Nola</small>
+                            <i class="fas fa-chevron-down more_btn"></i>
                         </a>
                     </div>
-                    <div class="popup_menu_area">
-                        <div id="popup_menus" class="popup_menus">
-                            <ul>
-                                <li>
-                                    <a href="">
-                                        <i class="fas fa-briefcase"></i>
-                                        <span class="sidebar_menu_title">management</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fas fa-briefcase"></i>
-                                        <span class="sidebar_menu_title">management</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fas fa-briefcase"></i>
-                                        <span class="sidebar_menu_title">management</span>
-                                    </a>
-
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="user_menu hide">
+                        <ul class="">
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fas fa-user"></i>
+                                    <span class="link_name">profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fas fa-user-edit"></i>
+                                    <span class="link_name">edit profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fas fa-inbox"></i>
+                                    <span class="link_name">inbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <span class="link_name">Logout</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+
+
 
                 </div>
             </div>
@@ -89,86 +97,84 @@
             <!-- sidebar start -->
             <div class="left_sidebar">
                 <ul class="nav_links">
-                    <li >
-                        <a href="">
+                    <li>
+                        <a href="javascript:;">
                             <i class="bx bxs-dashboard"></i>
                             <span class="link_name">Dashboard</span>
                         </a>
                     </li>
-                    <li >
-                        <a href="">
+                    <li>
+                        <a href="javascript:;">
                             <i class="bx bxs-user"></i>
                             <span class="link_name">profile</span>
                         </a>
                     </li>
-                    <li >
-                        <div class="dropdown_menu_link">
-                            <a href="">
+                    <li>
+                        <div class="dropdown_menu">
+                            <a href="javascript:;">
                                 <i class="bx bxs-briefcase"></i>
                                 <span class="link_name">management</span>
-                                
+                                <i class="bx bxs-chevron-down arrow"></i>
                             </a>
-                            <i class="bx bxs-chevron-down arrow"></i>
                         </div>
-                        <ul class="submenu">
-                            <li >
-                                <a href="">
+                        <ul class="submenu hide">
+                            <li>
+                                <a href="javascript:;">
                                     <i class="fas fa-users"></i>
                                     <span class="link_name">my team</span>
                                 </a>
                             </li>
-                            <li >
-                                <a href="">
+                            <li>
+                                <a href="javascript:;">
                                     <i class="bx bxs-folder-open"></i>
                                     <span class="link_name">my projects</span>
                                 </a>
                             </li>
-                            <li >
-                                <a href="">
+                            <li>
+                                <a href="javascript:;">
                                     <i class="bx bxl-microsoft-teams"></i>
                                     <span class="link_name">My clients</span>
                                 </a>
                             </li>
                         </ul>
                     </li>
-                    <li >
-                        <a href="">
+                    <li>
+                        <a href="javascript:;">
                             <i class="fas fa-history"></i>
                             <span class="link_name">history</span>
                         </a>
                     </li>
-                    <li >
-                        <div class="dropdown_menu_link">
-                            <a href="">
+                    <li>
+                        <div class="dropdown_menu">
+                            <a href="javascript:;">
                                 <i class="fas fa-chalkboard"></i>
                                 <span class="link_name">communiction</span>
-                                
+                                <i class="bx bxs-chevron-down arrow"></i>
                             </a>
-                            <i class="bx bxs-chevron-down arrow"></i>
                         </div>
-                        <ul class="submenu">
-                            <li >
-                                <a href="">
+                        <ul class="submenu hide">
+                            <li>
+                                <a href="javascript:;">
                                     <i class="fas fa-chevron-right"></i>
                                     <span class="link_name">option one</span>
                                 </a>
                             </li>
-                            <li >
-                                <a href="">
+                            <li>
+                                <a href="javascript:;">
                                     <i class="fas fa-chevron-right"></i>
                                     <span class="link_name">option two</span>
                                 </a>
                             </li>
                         </ul>
                     </li>
-                    <li >
-                        <a href="">
+                    <li>
+                        <a href="javascript:;">
                             <i class="fas fa-cogs"></i>
                             <span class="link_name">settings</span>
                         </a>
                     </li>
-                    <li >
-                        <a href="">
+                    <li>
+                        <a href="javascript:;">
                             <i class="fas fa-chart-line"></i>
                             <span class="link_name">monthly income</span>
                         </a>

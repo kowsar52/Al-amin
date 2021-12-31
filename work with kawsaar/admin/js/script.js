@@ -1,15 +1,15 @@
 // function moreMenu() {
 //     document.getElementById("popup_menus").style.display = "block";
 // }
-let arrow = document.querySelectorAll(".arrow");
-for (let i = 0; i < arrow.length; i++) {
-    arrow[i].addEventListener("click", (e) => {
-        let arrowParent = e.target.parentElement.parentElement;
-        console.log(arrowParent);
-        arrowParent.classList.toggle("show");
-    });
+// let arrow = document.querySelectorAll(".arrow");
+// for (let i = 0; i < arrow.length; i++) {
+//     arrow[i].addEventListener("click", (e) => {
+//         let arrowParent = e.target.parentElement.parentElement;
+//         console.log(arrowParent);
+//         arrowParent.classList.toggle("show");
+//     });
 
-}
+// }
 
 let sidebar = document.querySelector(".left_sidebar");
 console.log(sidebar);
@@ -20,4 +20,11 @@ toggleBtn.addEventListener("click", ()=>{
     sidebar.classList.toggle("close");
     // let r =document.querySelector(".right_side_body");
     
+})
+
+$('.dropdown_menu').on('click', function(){
+    $(this).next().slideToggle('fast')
+})
+$('.user').on('click', function(){
+    $(this).next().fadeToggle("fast");
 })
