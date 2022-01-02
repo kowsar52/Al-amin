@@ -12,14 +12,9 @@
 // }
 
 let sidebar = document.querySelector(".left_sidebar");
-console.log(sidebar);
 let  toggleBtn  = document.querySelector(".toggle_bar");
-console.log(toggleBtn);
 toggleBtn.addEventListener("click", ()=>{
-    console.log("clik");
     sidebar.classList.toggle("close");
-    // let r =document.querySelector(".right_side_body");
-    
 })
 
 $('.dropdown_menu').on('click', function(){

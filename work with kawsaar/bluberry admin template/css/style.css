@@ -1,0 +1,95 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --primary_color: #092456;
+    --secondary_color: #0A2D6B;
+    --light_color: #FFFFFF;
+    --dark_color: #F3F7F9;
+    --light_text_color: white;
+    --dark_text_color: #7185A7;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.hide{
+    display: none;
+}
+.full_section{
+    display: flex;
+    
+}
+.left_section{
+    width: 20%;
+    background: var(--primary_color);
+
+}
+.left_section .logo img{
+    width: 140px;
+    display: block;
+    margin-left: 19px;
+}
+.left_section .nav{
+margin-top: 10px;
+}
+
+.left_section .nav ul li{
+    text-transform: capitalize;
+}
+.left_section .nav ul li:hover a {
+    background: var(--secondary_color);
+    color: #F3F7F9;
+    
+}
+
+.left_section .nav ul li a{
+    color: var(--dark_text_color);
+    padding: 10px 0px 10px 25px;;
+    display: block;
+}
+.left_section .nav ul li a span{
+    position: absolute;
+    padding-left: 5px;
+}
+.left_section .nav ul li a .arrow{
+    position: relative;
+    font-size: 12px;
+    float: right;
+    top: 3px;
+}
+
+.left_section .nav ul li a i{
+    font-size: 20px;
+    width: 35px;
+}
+.left_section .nav .group_title{
+    text-transform: uppercase;
+    color: var(--dark_text_color);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 30px 0 15px 4px;
+}
+.main_section{
+    width: 80%;
+    height: 100vh;
+    background: var(--dark);
+
+}
+.dropdown_item div a{
+    color: var(--dark_text_color);
+    padding: 10px 0px 10px 25px;
+    display: block;
+    padding-left: 65px;
+    text-transform: capitalize;
+}
+.dropdown_item div a:hover{
+    background: var(--secondary_color);
+    color: white;
+}
