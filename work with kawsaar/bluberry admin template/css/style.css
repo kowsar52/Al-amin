@@ -1,7 +1,7 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-:root{
+:root {
     --primary_color: #092456;
     --secondary_color: #0A2D6B;
     --light_color: #FFFFFF;
@@ -9,63 +9,77 @@
     --light_text_color: white;
     --dark_text_color: #7185A7;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
 }
-.hide{
+
+.hide {
     display: none;
 }
-.full_section{
+
+.full_section {
     display: flex;
-    
+
 }
-.left_section{
+
+.left_section {
     width: 20%;
     background: var(--primary_color);
 
 }
-.left_section .logo img{
+
+.left_section .logo img {
     width: 140px;
     display: block;
     margin-left: 19px;
 }
-.left_section .nav{
-margin-top: 10px;
+
+.left_section .nav {
+    margin-top: 10px;
 }
 
-.left_section .nav ul li{
+.left_section .nav ul li {
     text-transform: capitalize;
 }
+
 .left_section .nav ul li:hover a {
     background: var(--secondary_color);
     color: #F3F7F9;
-    
+
 }
 
-.left_section .nav ul li a{
+.left_section .nav ul li a {
     color: var(--dark_text_color);
-    padding: 10px 0px 10px 25px;;
+    padding: 10px 0px 10px 25px;
     display: block;
 }
-.left_section .nav ul li a span{
+
+.left_section .nav ul li a span {
     position: absolute;
     padding-left: 5px;
 }
-.left_section .nav ul li a .arrow{
-    position: relative;
+
+.left_section .nav ul li a .arrow {
     font-size: 12px;
     float: right;
-    top: 3px;
+    margin-right: 24px;
+    margin-top: 4px;
+}
+.left_section .nav ul li a .rotate{
+    transform: rotate(90deg);
+    transition: 0.5s ease;
 }
 
-.left_section .nav ul li a i{
+.left_section .nav ul li a .icon {
     font-size: 20px;
     width: 35px;
 }
