@@ -73,6 +73,7 @@ body {
     float: right;
     margin-right: 24px;
     margin-top: 4px;
+    transition: 0.5s ease;
 }
 .left_section .nav ul li a .rotate{
     transform: rotate(90deg);
@@ -93,7 +94,7 @@ body {
 .main_section{
     width: 80%;
     height: 100vh;
-    background: var(--dark);
+    background: var(--dark_color);
 
 }
 .dropdown_item div a{
@@ -107,3 +108,74 @@ body {
     background: var(--secondary_color);
     color: white;
 }
+/* top section style start-----------------------------  */
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    background: var(--light_color);
+    height: 48px;
+    padding: 14px;
+}
+.top_section i{
+    font-size: 20px;
+}
+.top_section .bar_icon i{
+    color: rgb(107, 106, 106);
+}
+.right_side_menu a{
+
+}
+.right_side_menu a i{
+    color: rgb(107, 106, 106);
+    padding-left: 11px;
+}
+.right_side_menu a .user_name{
+    position: relative;
+    padding-left: 4px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ad0000;
+    bottom: 2px;
+}
+.right_side_menu a i.down_arrow{
+    padding-left: 4px;
+    position: relative;
+    top: 1px;
+}
+.right_side_menu a .dot{
+    position: absolute;
+    border: 4px solid red;
+    border-radius: 50px;
+    right: 207px;
+    top: 16px;
+}
+
+ul.user_menu{
+    float: right;
+    background: var(--primary_color);
+}
+ul.user_menu li{
+    text-transform: capitalize;
+}
+ul.user_menu li:hover a{
+    background: var(--secondary_color);
+    color: white ;
+}
+ul.user_menu li a{
+    color: var(--dark_text_color);
+    padding: 10px 21px 10px 8px;
+    display: block;
+}
+
+ul.user_menu li i{
+    width: 14px;
+    height: 16px;
+}
+ul.user_menu li span{
+    padding-left: 10px;
+
+}
+
+/* top section style end--------------------  */
