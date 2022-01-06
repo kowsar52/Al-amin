@@ -132,15 +132,16 @@ h1{
 
 }
 /* //css for hide sidebar  */
+<<<<<<< HEAD
 .hide_sidebar .left_section{
+=======
+.hide_sidebar{
+>>>>>>> ed65c7c668174f701dc13156584433e30767ec32
     margin-left: -18%;
 }
 .main_section.expand {
     margin-left: 0%;
 }
-/* .expand{
-    margin-left: 0;
-} */
 
 .left_section {
     width: 18%;
