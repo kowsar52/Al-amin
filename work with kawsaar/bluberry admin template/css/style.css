@@ -5,9 +5,11 @@
     --primary_color: #092456;
     --secondary_color: #0A2D6B;
     --light_color: #FFFFFF;
-    --dark_color: #d9dddf;
+    --dark_color: #edf1f5;
     --light_text_color: white;
     --dark_text_color: #9aa9c2;
+    --success-color: #3db61f;
+    --danger-color: #f63808;
 }
 
 * {
@@ -21,11 +23,22 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-size: 26px !important;
+}
 /* start column css  */
-/* .row {
+.row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
+.flex{
+    display: flex;
+    column-gap: 10px;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+
 .col-1 {
     grid-column: span 1;
 
@@ -84,9 +97,29 @@ body {
 .col-12 {
     grid-column: span 12;
 
-} */
+}
 /* end column css  */
 
+.card{
+    background: white;
+    padding:20px 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+.small-text{
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+.text-success{
+    color: var(--success-color);
+}
+.text-danger{
+    color: var(--danger-color);
+}
+.user-img{
+    height: 30px;
+    width: 30px;
+}
 .hide {
     display: none;
 }
@@ -99,8 +132,8 @@ body {
 
 }
 /* //css for hide sidebar  */
-.hide_sidebar{
-    margin-left: -276px;
+.hide_sidebar .left_section{
+    margin-left: -18%;
 }
 .main_section.expand {
     margin-left: 0%;
@@ -334,3 +367,4 @@ main .head .rightside_options .date i{
 }
 /* card style end  */
 /* main content style end ----------- */
+
