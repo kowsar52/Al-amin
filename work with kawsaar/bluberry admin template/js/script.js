@@ -6,5 +6,12 @@ $('.dropdown_menu').on('click', function(){
 $('.profile').on('click', function(){
     $('.user_menu').fadeToggle('fast')
 })
+$('.bar_icon').on('click', function(){
+    $('.left_section').toggleClass('hide_sidebar')
+    $('.main_section').toggleClass('expand')
+})
+// $('.bar_icon').on('click', function(){
+//     $('body').toggleClass('hide_sidebar')
+// })
 
 
