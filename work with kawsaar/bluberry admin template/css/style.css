@@ -38,6 +38,9 @@ h1{
 .justify-space-between{
     justify-content: space-between;
 }
+.mr_left{
+    margin-left: 15px;
+}
 
 .col-1 {
     grid-column: span 1;
@@ -75,7 +78,7 @@ h1{
 }
 
 .col-8 {
-    grid-column: span 9;
+    grid-column: span 8;
 
 }
 
@@ -132,11 +135,9 @@ h1{
 
 }
 /* //css for hide sidebar  */
-<<<<<<< HEAD
 .hide_sidebar .left_section{
-=======
+}
 .hide_sidebar{
->>>>>>> ed65c7c668174f701dc13156584433e30767ec32
     margin-left: -18%;
 }
 .main_section.expand {
@@ -341,19 +342,12 @@ main .head .rightside_options .date i{
 .cards{
     display: flex;
 }
-.cards .single_card{
-    background: white;
-    padding: 16px;
-    margin: 3px 33px 0px 0px;
-    width: 20%;
-    line-height: 2;
+.single_card{
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 5px;
 }
-.cards .single_card .card_title{
-    color: #77808b;
-    text-transform: capitalize;
-    font-size: 14px;
-    font-weight: 500;
-}
+
 .cards .single_card span{
     font-weight: 800;
     letter-spacing: 1px;
@@ -368,4 +362,87 @@ main .head .rightside_options .date i{
 }
 /* card style end  */
 /* main content style end ----------- */
+.selling_product{
+    background: white;
+    border-radius: 5px;
+}
+.card_title{
+    text-transform: capitalize;
+    padding: 15px;
+    /* border-bottom: 1px solid var(--dark_color); */
+}
+.selling_product ul li{
+    border-bottom:1px solid var(--dark_color); 
+}
+ul .product_img{
+width: 14%;
+}
+ul .product_name{
+    text-transform: capitalize;
+    position: absolute;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 7px;
+
+}
+ul .product_price{
+position: absolute;
+right: 47px;
+font-weight: 500;
+}
+ul .product_img, .product_name, .product_price{
+    padding: 10px;
+}
+.card ul li{
+    padding-top: 15px;
+}
+/* chart style ----------- */
+.chart{
+    border-radius: 5px;
+    background: white;
+    padding: 30px;
+    margin-top: 25px;
+}
+.chart .chart_title{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.chart .chart_bar_name{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 14px;
+    display: flex;
+    padding-left: 5px;
+}
+.chart .chart_bar_name .name1{
+    padding-right: 15px;
+}
+.total_viewers{
+    position: relative;
+    margin-top: 16px;
+    margin-right: 18px;
+    font-weight: 600;
+}
+.upcoming_event ul li{
+    border-bottom:1px solid var(--dark_color); 
+    font-size: 14px;
+    
+}
+.upcoming_event ul li div{
+    padding: 10px;
+}
+.upcoming_event ul li div i, .event_date{
+    color:var(--dark_text_color);
+}
+.upcoming_event ul li div .event_date{
+    text-transform: capitalize;
+
+}
+.upcoming_event ul li div .event_title{
+    text-transform: capitalize;
+    margin-left: 25px;
+    
+}
+
 
