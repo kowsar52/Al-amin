@@ -5,7 +5,7 @@
     --primary_color: #092456;
     --secondary_color: #0A2D6B;
     --light_color: #FFFFFF;
-    --dark_color: #F3F7F9;
+    --dark_color: #d9dddf;
     --light_text_color: white;
     --dark_text_color: #9aa9c2;
 }
@@ -21,6 +21,71 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+/* start column css  */
+/* .row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.col-1 {
+    grid-column: span 1;
+
+}
+
+.col-2 {
+    grid-column: span 2;
+
+}
+
+.col-3 {
+    grid-column: span 3;
+
+}
+
+.col-4 {
+    grid-column: span 4;
+
+}
+
+.col-5 {
+    grid-column: span 5;
+
+}
+
+.col-6 {
+    grid-column: span 6;
+
+}
+
+.col-7 {
+    grid-column: span 7;
+
+}
+
+.col-8 {
+    grid-column: span 8;
+
+}
+
+.col-9 {
+    grid-column: span 9;
+
+}
+
+.col-10 {
+    grid-column: span 10;
+
+}
+
+.col-11 {
+    grid-column: span 11;
+
+}
+
+.col-12 {
+    grid-column: span 12;
+
+} */
+/* end column css  */
 
 .hide {
     display: none;
@@ -175,7 +240,8 @@ body {
 }
 
 ul.user_menu{
-    float: right;
+    position: fixed;
+    right: 0;
     background: var(--primary_color);
 }
 ul.user_menu li{
