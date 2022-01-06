@@ -100,14 +100,11 @@ body {
 }
 /* //css for hide sidebar  */
 .hide_sidebar{
-    margin-left: -276px;
+    margin-left: -18%;
 }
 .main_section.expand {
     margin-left: 0%;
 }
-/* .expand{
-    margin-left: 0;
-} */
 
 .left_section {
     width: 18%;
