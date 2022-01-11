@@ -152,10 +152,12 @@ p {
 .blue .inner_info {
     position: relative;
     background-color: rgba(0, 0, 255, 0.7);
-    width: 70%;
+    width: 300px;
     border-radius: 50%;
-
+    height: 300px;
+    /* text-align: center; */
 }
+
 
 .orange .inner_info {
     position: relative;
@@ -178,9 +180,11 @@ p {
 
 .inner_info .text {
     opacity: .9;
-    padding: 80px;
+    padding: 100px;
     text-align: center;
+    margin: auto;
 }
+
 
 .inner_info .text span {
     font-size: 50px;
