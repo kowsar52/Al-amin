@@ -1,0 +1,100 @@
+/*--------------------------- google font ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* :root{
+    --primary-color: #191b1e;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: unset;
+}
+body{
+    background-color: #191b1e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ----------------nav style start------  */
+.logo img{
+
+}
+.navbar{
+    width: 600px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.nav_item:hover{
+    box-shadow: 0 0 5px #e5ff00,
+                0 0 5px #bbff00;
+}
+.nav_item{
+    transition: .3s ease-in;
+}
+.nav_link{
+    padding: 11px;
+    line-height: 40px;
+}
+/* nav style end  */
+
+
+/*------------------header content style start  */
+.header_content .col-6{
+    padding: 77px 0px;
+}
+.header_content .my_info{
+    
+}
+.header_content .my_info h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 15px 0;
+}
+.header_content .my_info h1{
+    font-size: 63px;
+    text-transform: capitalize;
+    margin: 15px 0;
+
+}
+.header_content .my_info p{
+    margin: 15px 0;
+    line-height: 26px;
+    font-size: 17px;
+
+}
+.header_photo{
+    width: 749px;
+}
+.social_all_icons{
+    margin-top: 150px;
+}
+.social_all_icons .title{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.social_all_icons .icons{
+    
+}
+.social_all_icons .icons a{
+    margin-top: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 4px 4px 19px;
+    border-radius: 5px;
+}
+.social_all_icons .icons a i{
+    width: 14px;
+    height: 16px;
+    text-align: center;
+}
+
+/* header content style end  */

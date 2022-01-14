@@ -27,7 +27,7 @@
         <nav class=" nav flex space_between">
 
             <!-------------- logo area  ------------------->
-            <div class="logo">
+            <div class="logo" >
                 <a href="#">
                     <img src="./img/logo/logo.webp" alt="logo">
                 </a>
@@ -35,8 +35,8 @@
             <!-------------- end logo area  -->
 
             <!-- -----------start navbar  -->
-            <div class="navbar">
-                <ul class="flex">
+            <!-- <div class="navbar"> -->
+                <ul class="flex navbar">
                     <li class="nav_item">
                         <a href="" class="nav_link text_light">
                             <span>home</span>
@@ -47,11 +47,15 @@
                             <span>courses</span>
                         </a>
                     </li>
-                    <li class="nav_item page_dropdown">
+                    <li class="nav_item ">
                         <a href="" class="nav_link text_light">
                             <span>pages</span>
                             <i class="fas fa-chevron-down arrow"></i>
                         </a>
+                        <ul class="dropdown_menu">
+                            <li><a href="" class="nav_link text_dark">couser details</a></li>
+                            <li><a href="" class="nav_link text_dark">elements</a></li>
+                        </ul>
                     </li>
                     <li class="nav_item">
                         <a href="" class="nav_link text_light">
@@ -59,11 +63,15 @@
                         </a>
 
                     </li>
-                    <li class="nav_item blog_dropdown">
+                    <li class="nav_item ">
                         <a href="" class="nav_link text_light">
                             <span>blog</span>
                             <i class="fas fa-chevron-down arrow"></i>
                         </a>
+                        <ul class="dropdown_menu">
+                            <li><a href="" class="nav_link text_dark">blog</a></li>
+                            <li><a href="" class="nav_link text_dark">single-blog</a></li>
+                        </ul>
                     </li>
                     <li class="nav_item">
                         <a href="" class="nav_link text_light">
@@ -71,7 +79,10 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+                <div class="bar_icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            <!-- </div> -->
             <!-- -----------end navbar  -->
 
             <div class="nav_right_area flex">
@@ -88,10 +99,13 @@
                     </a>
                 </div>
             </div>
+            
 
         </nav>
+        <hr class="line">
+        
         <!---------------------- start dropdown  -->
-        <div class="dropdown flex">
+        <!-- <div class="dropdown flex">
             <ul class="dropdown_menu dr_page hide">
                 <li>couser details</li>
                 <li>elements</li>
@@ -100,19 +114,21 @@
                 <li>blog</li>
                 <li>single-blog</li>
             </ul>
-        </div>
+        </div> -->
         <!---------------------- end dropdown  -->
 
 
         <!---------------------- start header contenct  -->
         <div class="header_contect">
-            <div class="row">
-                <div class="col-6">
-                    <img class="header_content_img" src="./img/header_img.webp" alt="">
-                </div>
-                <div class="col-6">
-                    <h1>learn your <br> favourite course <br> from online</h1>
-                    <a class="btn" href="">Browse our course</a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-12">
+                        <img class="header_content_img" src="./img/header_img.webp" alt="">
+                    </div>
+                    <div class="col-6 col-sm-12 header_contect_info">
+                        <h1>learn your <br> favourite course <br> from online</h1>
+                        <a class="btn" href="">Browse our course</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,7 +146,7 @@
         <section class="about_info">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 col-sm-12">
                         <div class="info_text">
                             <h3>Over 7000 Tutorials
                                 from 20 Courses</h3>
@@ -140,7 +156,7 @@
                             <a href="" class="btn">enroll course</a>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 col-sm-12">
                         <div class="circle">
                             <div class="blue">
                                 <div class="inner_info">
@@ -238,7 +254,7 @@
                 <div class="menu_gallary">
                     <div class="container">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-4 col-sm-12">
                                 <div class="card">
                                     <img src="./img/x1.png.pagespeed.ic.uOVeOynzNX.webp" class="card_img" alt="...">
                                     <div class="card_body">
@@ -258,7 +274,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 col-sm-12">
                                 <div class="card">
                                     <img src="./img/x2.png.pagespeed.ic.sDlQOJ2rvH.webp" class="card_img" alt="...">
                                     <div class="card_body">
@@ -278,7 +294,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 col-sm-12">
                                 <div class="card">
                                     <img src="./img/x3.png.pagespeed.ic.uVBnwRYazf.webp" class="card_img" alt="...">
                                     <div class="card_body">
@@ -298,7 +314,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 col-sm-12">
                                 <div class="card">
                                     <img src="./img/x4.png.pagespeed.ic.FtCOfZfzTr.webp" class="card_img" alt="...">
                                     <div class="card_body">
@@ -318,7 +334,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 col-sm-12">
                                 <div class="card">
                                     <img src="./img/x5.png.pagespeed.ic.qVnhy4fiZ1.webp" class="card_img" alt="...">
                                     <div class="card_body">
@@ -338,7 +354,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 col-sm-12">
                                 <div class="card">
                                     <img src="./img/x6.png.pagespeed.ic.Dr-JOOAkG3.webp" class="card_img" alt="...">
                                     <div class="card_body">
@@ -401,7 +417,7 @@
             <div class="course_speciality_gallery">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-3 col-sm-12">
                             <div class="card text_center">
                                 <div class="icon">
                                     <i class="fab fa-artstation"></i>
@@ -410,7 +426,7 @@
                                 <p>Your domain control panel is designed for ease-of-use and allows for all aspects of</p>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 col-sm-12">
                             <div class="card text_center">
                                 <div class="icon">
                                     <i class="fas fa-award"></i>
@@ -419,7 +435,7 @@
                                 <p>Your domain control panel is designed for ease-of-use and allows for all aspects of</p>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 col-sm-12">
                             <div class="card text_center">
                                 <div class="icon">
                                     <i class="fas fa-atom"></i>
@@ -428,7 +444,7 @@
                                 <p>Your domain control panel is designed for ease-of-use and allows for all aspects of</p>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 col-sm-12">
                             <div class="card text_center">
                                 <div class="icon">
                                     <i class="fas fa-gem"></i>
@@ -448,11 +464,11 @@
         <section class="subcription_section  space_between">
            <div class="container">
             <div class="row">
-                <div class="subscribe_text col-6">
+                <div class="subscribe_text col-6 col-sm-12">
                     <h3>Subscribe Newsletter</h3>
                     <small>Your domain control panel is designed for ease-of-use and allows for all aspects of your</small>
                 </div>
-                <div class="subscribe_form col-6">
+                <div class="subscribe_form col-6 col-sm-12">
                     <label>Your domain control panel is</label>
                     <br>
                     <input type="email" placeholder="enter your email">
@@ -470,11 +486,11 @@
             </div>
             <div class="blog_content container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 col-sm-12">
                         <div class="card">
                             <img src="./img/letest blog/x2.png.pagespeed.ic.LteG4sYjfv.webp" class="card_img" alt="...">
                             <div class="card_body">
-                                <p class="card_title">12 Jun, 2019 in <span class="text_success">Design tips</span></p>
+                                <p class="card_date">12 Jun, 2019 in <span class="text_success">Design tips</span></p>
                                 <a href="" class="card_text">Commitment to dedicated Support</a>
                                     <p class="card_title">
                                         Firmament morning sixth subdue darkness creeping gathered divide.
@@ -482,11 +498,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-sm-12">
                         <div class="card">
                             <img src="./img/letest blog/x1.png.pagespeed.ic.trJAcHrHAP.webp" class="card_img" alt="...">
                             <div class="card_body">
-                                <p class="card_title">12 Jun, 2019 in <span class="text_success">Design tips</span></p>
+                                <p class="card_date">12 Jun, 2019 in <span class="text_success">Design tips</span></p>
                                 <a href="" class="card_text">Commitment to dedicated Support</a>
                                     <p class="card_title">
                                         Firmament morning sixth subdue darkness creeping gathered divide.
@@ -494,11 +510,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-sm-12">
                         <div class="card">
                             <img src="./img/letest blog/x3.png.pagespeed.ic.6Ipjf0h45s.webp" class="card_img" alt="...">
                             <div class="card_body">
-                                <p class="card_title">12 Jun, 2019 in <span class="text_success">Design tips</span></p>
+                                <p class="card_date">12 Jun, 2019 in <span class="text_success">Design tips</span></p>
                                 <a href="" class="card_text">Commitment to dedicated Support</a>
                                     <p class="card_title">
                                         Firmament morning sixth subdue darkness creeping gathered divide.
@@ -515,7 +531,7 @@
     <footer>
         <div class="footer_content container">
             <div class="row">
-                <div class="footer_logo_area col-3">
+                <div class="footer_logo_area col-3 col-sm-12">
                     <div class="logo">
                         <a href="#">
                             <img src="./img/logo/logo.webp" alt="logo">
@@ -539,7 +555,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12">
                     <div class="footer_link">
                         <h3 class="text_light">courses</h3>
                         <ul>
@@ -562,7 +578,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12">
                     <div class="footer_link">
                         <h3 class="text_light">resourses</h3>
                         <ul>
@@ -585,7 +601,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12">
                     <div class="footer_link">
                         <h3 class="text_light">courses</h3>
                         <p class="text_light">200, D-block, Green lane USA <br> +103674678934 <br> edumark@contact.com</p>

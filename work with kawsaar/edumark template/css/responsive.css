@@ -1,3 +1,345 @@
-@media only screen and(min-width: 320px)  {
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        overflow-x: hidden;
+
+    }
+    .nav::after{
+        content: '';
+        width: 100%;
+        height: 2px;
+        color: aliceblue;
+        background-color: rgb(13, 128, 230);
+    }
+    .nav{
+        border: unset;
+        position: fixed;
+        width: 100%;
+        background: #9d4beb;
+        opacity: 1;
+    }
+   .bar_icon{
+       position: sticky;
+   }
+    .navbar{
+        position: absolute;
+        right: 0;
+        height: 93vh;
+        background: #9d4beb;
+        top: 10vh;
+        padding-top: 27px;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        line-height: 5;
+        transform: translateX(100%);
+        transition: .5s ease-in;
+
+    }
+    .nav_right_area{
+        display: none;
+    }
     
+    /* .nav_show{ */
+        /* transform: translateX(0%); */
+    
+    
+        /* transform: translateX(0%); */
+    /* } */
+    .bar_icon{
+        display: block;
+    }
+    .logo img{
+        width: 130px;
+    }
+
+    .navbar .flex {
+        /* display: unset; */
+    }
+
+    header .flex {
+        /* display: unset; */
+    }
+
+    .card_title {
+        font-size: 4vmin;
+    }
+
+    .card_date {
+        font-size: 4vmin;
+    }
+
+    .card_text {
+        font-size: 6vmin;
+    }
+
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .col-sm-1 {
+        grid-column: span 1;
+
+    }
+
+    .col-sm-2 {
+        grid-column: span 2;
+
+    }
+
+    .col-sm-3 {
+        grid-column: span 3;
+
+    }
+
+    .col-sm-4 {
+        grid-column: span 4;
+
+    }
+
+    .col-sm-5 {
+        grid-column: span 5;
+
+    }
+
+    .col-sm-6 {
+        grid-column: span 6;
+
+    }
+
+    .col-sm-7 {
+        grid-column: span 7;
+
+    }
+
+    .col-sm-8 {
+        grid-column: span 8;
+
+    }
+
+    .col-sm-9 {
+        grid-column: span 9;
+
+    }
+
+    .col-sm-10 {
+        grid-column: span 10;
+
+    }
+
+    .col-sm-11 {
+        grid-column: span 11;
+
+    }
+
+    .col-sm-12 {
+        grid-column: span 12;
+
+    }
+
+
+
+    .header_content_img {
+        width: 100vw;
+    }
+
+    .header_contect {
+        margin: 77px 0;
+        padding-bottom: 42px;
+    }
+
+    .header_contect .row .col-6 h1 {
+        font-size: 32px;
+    }
+
+    .header_contect_info {
+        padding: 0px 53px;
+    }
+
+    .btn {
+
+
+        padding: 10px 20px;
+        font-size: 17px;
+        display: block;
+    }
+
+    .about_info {
+        margin: 70px 0px 70px 0px;
+    }
+
+    .info_text h3 {
+        font-weight: 500;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .info_text p {
+        font-size: 12px;
+        padding: 24px 45px;
+    }
+
+    .info_text a {
+        margin: 0px auto;
+    }
+
+    .circle {
+        /* margin: 130px 25px 48px 25px; */
+        margin: 0;
+    }
+
+    .blue, .orange, .green {
+        position: unset;
+    }
+
+    .blue .inner_info {
+        position: unset;
+        margin: 0 auto;
+        margin: 30px auto;
+
+    }
+
+    .orange .inner_info {
+        position: unset;
+        margin: 30px auto;
+    }
+
+    .green .inner_info {
+        position: unset;
+        margin: 30px auto;
+    }
+
+
+    .middle {
+        width: unset;
+    }
+
+    .headline h1 {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .course_menu nav {
+        text-align: center;
+    }
+
+    .course_menu nav ul {
+        display: unset;
+    }
+
+    .course_menu nav li .nav_link {
+        padding: unset;
+        color: #161616;
+    }
+
+    .course_menu nav li {
+        background: aquamarine;
+        padding: 20px 0;
+    }
+
+    .menu_gallary {
+        margin-top: 30px;
+    }
+
+    .menu_gallary .row {
+        margin: 0px;
+    }
+
+    .menu_gallary .more_course_btn {
+        margin-top: 100px;
+    }
+
+
+    .testimonial {
+        margin: 100px 0px 100px 0px;
+    }
+
+    .testimonial .testimonial_info {
+        padding: 30px 0px;
+    }
+
+    .testimonial .testimonial_info span {
+        margin-left: unset;
+    }
+
+    .subcription_section {
+        padding: unset;
+        margin: 100px 0 100px 0;
+    }
+
+    .subcription_section .subscribe_text {
+        padding: 37px 0px 11px 10px;
+        ;
+    }
+
+    .subcription_section .subscribe_text h3 {
+        font-size: 12vmin;
+        line-height: unset;
+    }
+
+    .subcription_section .subscribe_form {
+        padding: 0px;
+        margin-left: 10px;
+        margin-bottom: 42px;
+
+    }
+
+    .subcription_section .subscribe_form label {
+        font-size: 15px;
+        line-height: 3;
+    }
+
+    .subcription_section .subscribe_form input {
+        height: 46px;
+        width: 189px;
+        padding-left: 15px;
+    }
+
+    .subcription_section .subscribe_form .btn {
+        display: unset;
+        top: 2px;
+    }
+
+
+
+    .our_blog {
+        margin: 100px 0 100px 0;
+    }
+
+
+
+    .footer_logo_area {
+        padding: 10px;
+    }
+
+    .footer_link {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .footer_link h3 {
+        padding: 10px;
+    }
+    .footer_link ul{
+        margin: 0;
+    }
+    .footer_link ul li {
+        float: left;
+        padding: 10px;
+    }
+    .footer_link p{
+        margin: 0;
+        padding: 10px;
+    }
+
+    .course_menu nav ul::after{
+        display: none;
+    }
 }

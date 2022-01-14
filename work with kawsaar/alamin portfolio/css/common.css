@@ -5,13 +5,23 @@
 .space_between {
     justify-content: space-between;
 }
+.space_around{
+    justify-content: space-around;
+}
+
 
 .text_success {
     color: rgb(10, 153, 10);
 }
+.text_yellow{
+    color: #f2ed01;
+}
 
 .text_light {
     color: white;
+}
+.text_dark_light {
+    color: rgb(218, 218, 218);
 }
 .text_dark {
     color: rgb(12, 12, 12);
