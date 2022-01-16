@@ -30,19 +30,24 @@
 .text_center {
     text-align: center;
 }
+.title{
+    font-size: 70px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 62px;
+}
 
 .card {
-    margin: 14px;
-    box-shadow:
-        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-        100px 100px 80px rgba(0, 0, 0, 0.07);
-
+    padding: 30px;
+    margin: 7px 15px 104px 25px;
+    box-shadow: 4px 4px 19px;
     border-radius: 10px;
     overflow: hidden;
+}
+.card_image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .hide {
@@ -81,8 +86,9 @@
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    border-bottom: 1px solid black;
 }
 
 .row {
