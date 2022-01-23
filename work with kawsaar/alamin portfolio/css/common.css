@@ -23,12 +23,21 @@
 .text_dark_light {
     color: rgb(218, 218, 218);
 }
+.text_ash{
+    color: rgb(168, 168, 168);
+}
 .text_dark {
     color: rgb(12, 12, 12);
 }
 
 .text_center {
     text-align: center;
+}
+.text_capitalize{
+text-transform: capitalize;
+}
+.text_uppercase{
+text-transform: uppercase;
 }
 .title{
     font-size: 70px;
